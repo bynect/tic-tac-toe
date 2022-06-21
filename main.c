@@ -304,7 +304,7 @@ int main()
 		if (changed)
 		{
 			Cell winner = win();
-			bool filled = full();
+			bool filled = winner == EMPTY && full();
 			changed = render_grid(renderer);
 
 			if (winner != EMPTY)
