@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-O2 -g3 -Wall -Werror -DDEBUG
+CFLAGS=-O2 -g3 -Wall -Werror #-DDEBUG
 CLIBS=-lSDL2 -lSDL2_image
 
 SRC=main.c
