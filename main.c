@@ -4,7 +4,7 @@
 
 #include <SDL2/SDL.h>
 
-#ifdef DEBUG
+#ifdef _DEBUG
 #define debug(...) printf(__VA_ARGS__)
 #else
 #define debug(...)
